@@ -32,7 +32,7 @@ void bubbleSortArray() {
             if (element[j] > element[j + 1]) {
                
                 int temp = element[j];
-                element[j] = element[j + 1]; // Menambahkan '=' yang tadi hilang
+                element[j] = element[j + 1]; 
                 element[j + 1] = temp;
             }
         }
