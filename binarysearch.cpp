@@ -30,7 +30,7 @@ void bubbleSortArray() {
     do {
         for (int j = 0; j <= nPanjang - 1 - pass; j++) {
             if (element[j] > element[j + 1]) {
-                // Perbaikan di bagian swapping
+               
                 int temp = element[j];
                 element[j] = element[j + 1]; // Menambahkan '=' yang tadi hilang
                 element[j + 1] = temp;
